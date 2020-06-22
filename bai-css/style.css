@@ -1,0 +1,97 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;	
+}
+.wrapper{
+	width: 1400px;
+	height:1000px;
+	background:#E3E3E3;
+	margin: 0 auto;
+}
+.header{
+	width: 1400px;
+	height: 80px;
+	background: #12AFD7;
+}
+.header ul li{
+	display: inline-block;
+	list-style: none;
+	float: left;
+	line-height: 70px;
+	margin: 0 auto;
+	margin-left: 50px;
+	font-size: 25px;
+	
+
+}
+.header ul li a{
+	color:aliceblue;
+	text-decoration: none;
+}
+.header ul li a:hover{
+	color:antiquewhite;
+	border-bottom: solid white;
+}
+.header img{
+	width: 60px;
+	height: 60px;
+	margin-top: 5px;
+	margin-left: 900px;
+	
+}
+
+.content{
+	width: 768px;
+	height: 376px;
+	background: #13C591;
+}
+.content{
+	width: 768px;
+	height: 376px;
+	background: #13C591;
+}
+.left{
+	width: 502px;
+	height: 376px;
+	background:#0FDBDF;
+	float:left;
+}
+.right{
+	width: 266px;
+	height: 376px;
+	background:#08CF9A;
+	float:right;
+}
+.content .right img{
+	width: 233px;
+	height: 360px;
+	margin-left: 17px;
+	margin-top: 6px;
+}
+.content .left h1{
+	text-align:center;
+}
+.content .left h2{
+	font-style: italic;
+}
+.content .left p{
+	font-size: 13px;
+}
+.fotter{
+	width: 768px;
+	height: 30px;
+	background:#BD2527;
+}
+.fotter ul li{
+	list-style: none;
+	float: left;
+	line-height: 20px;
+	margin: 10px;
+	font-size: 16px;
+	
+}
+.fotter ul li a{
+	color:aliceblue;
+	text-decoration: none;
+}
